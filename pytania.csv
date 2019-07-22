@@ -1,0 +1,10 @@
+1;W języku JavaScript zdefiniowana zmienna i, która ma przechowywać wynik dzielenia wynoszący 1, to;var i=3/2;var i=Number(3/2);var i=parseInt(3/2);var i=parseFloat(3/2);3
+2;Prawidłowy (zgodny z XHTML), zapis samozamykającego się znacznika odpowiadającego za łamanie linii ma postać;</ br>;<br />;</br/>;<br> </br>;2
+3;W celu przyspieszenia operacji na bazie danych należy do pól często wyszukiwanych lub sortowanych;utworzyć indeks;dodać klucz obcy;dodać więzy integralności;stworzyć osobną tabelę przechowującą tylko te pola;1
+4;Aby naprawić uszkodzoną tabelę w MySQL, należy wydać polecenie;RESOLVE TABLE;CHECK TABLE;FIX TABLE;REPAIR TABLE;4
+5;Wstawki kodu JavaScript w dokumencie HTML mogą się znaleźć;tylko w cześci <head>, w znaczniku <script>;tylko w cześci <body>, w znaczniku <java>;zarówno w cześci <head>, jak i <body>, w znaczniku <java>;zarówno w cześci <head>, jak i <body>, w znaczniku <script>;4
+6;Aby w pliku z rozszerzeniem php umieścić kod w języku PHP należy użyć znaczników;<php .......... />;<?php .......... ?>;<php> ......... </php>;<?php> ........ <php?>;2
+7;W języku SQL polecenie INSERT INTO;dodaje tabelę;dodaje pola do tabeli;wprowadza dane do tabeli;aktualizuje rekordy określoną wartością;3
+8;Poprzez deklarację 'var x="true"' w języku JavieScript tworzy się zmienną typu;Nieokreślonego (undefined);Liczbowego;Logicznego;String (ciąg znaków);4
+9;Za pomocą polecenia BACKUP LOG w MS SQL Server można;wykonać pełną kopię bezpieczeństwa;zalogować sie do kopii bezpieczeństwa;wykonać kopię bezpieczeństwa dziennika transakcyjnego;przeczytać komunikaty wygenerowane podczas tworzenia kopii;3
+10;W języku PHP sumę logiczną oznacza operator;!;||;+;&&;2

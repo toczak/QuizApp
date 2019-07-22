@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="450.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="quiz.Controller">
+    <center>
+        <GridPane prefHeight="71.0" prefWidth="760.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="button1" focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleSubmit" wrapText="true" GridPane.hgrow="NEVER" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Button>
+                <Button fx:id="button2" focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleSubmit" wrapText="true" GridPane.hgrow="NEVER" GridPane.rowIndex="3" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Button>
+                <Button fx:id="button3" focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleSubmit" wrapText="true" GridPane.hgrow="NEVER" GridPane.rowIndex="1" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Button>
+                <Button fx:id="button4" focusTraversable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#handleSubmit" wrapText="true" GridPane.hgrow="NEVER" GridPane.rowIndex="2" GridPane.vgrow="NEVER">
+                    <font>
+                        <Font size="22.0" />
+                    </font>
+                </Button>
+
+            </children>
+        </GridPane>
+    </center>
+    <bottom>
+        <GridPane prefHeight="43.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label fx:id="questionNum" alignment="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" text="Pytanie 0" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+            </children>
+        </GridPane>
+    </bottom>
+   <top>
+      <FlowPane alignment="CENTER" columnHalignment="CENTER" prefHeight="150.0" prefWidth="660.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="questionNumber" text="Nr pytania" />
+              <Label fx:id="questionLabel" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="77.0" prefWidth="728.0" text="Pytanie" textAlignment="CENTER" textFill="#1d1d1d" wrapText="true">
+                  <font>
+                      <Font name="Arial" size="28.0" />
+                  </font>
+              </Label>
+         </children>
+      </FlowPane>
+   </top>
+
+</BorderPane>
